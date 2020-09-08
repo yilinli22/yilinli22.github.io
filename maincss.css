@@ -1,10 +1,10 @@
 p {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 body {
-    color: red;
-    background-color: gray;
+    color: black;
+    background-color: rgb(182, 120, 133);
     width: 1000px; /* many units for width */
 }
 
@@ -21,30 +21,59 @@ li {
     list-style-type: none;
     display: inline-block;
     width: 21%;
-    background-color: black;
-    color: white;
+    background-color: rgb(110, 206, 198);
+    color: rgb(230, 92, 133);
     margin: 0px;
     padding: 10px;
 }
 
+div.interest_one{
+    color: cadetblue;
+}
+
+div.interest_two{
+    color: cadetblue;
+    background-color: coral;
+}
+
+div.interest_three{
+    color: cadetblue;
+}
+
+div.about_h1{
+    color: rgb(5, 5, 5);
+}
+
+div.aboutimage{
+    background-color: darkgray;
+}
+
+div.aboutme{
+    color: darkslateblue;
+}
 span.webpage{
     color: #89703e;
 }
 
-div.indext_one {
+div.index_one {
     color: red;
 }
 
-div.indext_two {
+div.index_two {
     color: blue;
 }
 
-div.indext_three {
-    color: whitesmoke;
+div.aboutimage{
+    width: 20px;
+    margin: 0px;
+    padding: 30px;
+}
+div.index_three {
+    color: rgb(172, 16, 16);
 }
 /* part after # is called the id */
 a#myid {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 /* menu is a class or "true class" */
@@ -54,6 +83,18 @@ a.menu {
 
 /* :hover is a pseudo-class */
 li:hover {
-    background-color: cyan;
+    background-color: yellow;
     color: red;
 }
+css_selector {
+    property: value;
+    property: value;
+    property: value;
+    property: value;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
